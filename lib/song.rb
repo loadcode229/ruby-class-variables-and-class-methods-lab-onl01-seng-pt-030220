@@ -14,11 +14,11 @@ class Song
   
   def self.genres
     @@genres = [] 
-    @@genres << @genre
+    @@genres << @genre.count
   end
   
   def self.artists
     @@artists = []
-    @@artists << @artist
+    @@artists << @artist.count
   end
 end
