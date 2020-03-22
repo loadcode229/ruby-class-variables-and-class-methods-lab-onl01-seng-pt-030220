@@ -21,7 +21,4 @@ class Song
     @@artists = []
     @@artists << @artist
   end
-    
-    
-  
 end
