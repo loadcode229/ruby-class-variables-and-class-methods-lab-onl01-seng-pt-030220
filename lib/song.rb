@@ -19,7 +19,6 @@ class Song
   
   def self.artists
     @@artists = []
-    @@artists << @artist
     
     
   
