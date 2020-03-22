@@ -14,7 +14,7 @@ class Song
   
   def self.genres
     @@genres = [] 
-    @@genres << self.@genre
+    @@genres << @genre
   end
     
     
