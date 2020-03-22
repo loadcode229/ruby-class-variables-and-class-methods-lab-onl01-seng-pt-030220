@@ -14,6 +14,7 @@ class Song
   
   def self.genres
     @@genres = []
+    return @@genres << genres
   end
     
     
